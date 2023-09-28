@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+/* Set legend style */
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.63);
+  box-shadow: 0 0 15px rgba(202, 105, 105, 0.2);
+  border-radius: 5px;
+}
+
+
+.legend {
+  line-height: 25px;
+  color: #000000;
+}
+
+.legend i {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: 0.75;
+}
+
+/* Set the style for the sidebar */
+h3 {
+  margin: 0px;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: -5px;
+  padding: -6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
